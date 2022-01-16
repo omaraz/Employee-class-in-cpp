@@ -47,8 +47,8 @@ public:
 };
 
 //Prototypes
-Employee FillEmp();
-void PrintEmp(Employee e);
+Employee FillEmp();//using setters
+void PrintEmp(Employee e); //using getters
 
 int main(){
 	clrscr();
