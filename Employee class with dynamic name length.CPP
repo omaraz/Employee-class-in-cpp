@@ -74,27 +74,32 @@ setId(i);
 setSalary(0);
 setName("A");}
 
+//parameterized constructors
 Employee::Employee(char s[]){
 setId(0);
 setSalary(0);
 setName(s);}
 
+//parameterized constructors
 Employee::Employee(int i,float s){
 setId(i);
 setSalary(s);
 setName("A");}
 
+//parameterized constructors
 Employee::Employee(int i, char n[]){
 setId(i);
 setSalary(0);
 setName(n);}
 
+//parameterized constructors
 Employee::Employee(float s, char n[]){
 setId(0);
 setSalary(s);
 setName(n);}
 
 
+//parameterized constructors
 Employee::Employee(int i,float s, char n[]){
 setId(i);
 setSalary(s);
